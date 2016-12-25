@@ -1,0 +1,7 @@
+str1 = raw_input()
+for x in str1:
+    for y in str1:
+        if (str1.index(x) == (str1.index(y) - 1) and x == y):
+            str1.remove(x)
+
+print str1

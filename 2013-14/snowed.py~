@@ -1,0 +1,5 @@
+n = input()
+snow = map(int, raw_input().split())
+M = max(snow)
+m = min(snow)
+print M-n
